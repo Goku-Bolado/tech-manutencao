@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tech Manutenção</title>
+    <link rel="stylesheet" href="ppe.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1 class="glow">Tech Manutenção</h1>
+            <nav>
+                <ul>
+                    <li><a href="#home" class="tab-link active">Home</a></li>
+                    <li><a href="#informacoes" class="tab-link">Informações</a></li>
+                    <li><a href="#videos" class="tab-link">Vídeos</a></li>
+                    <li><a href="#sobre" class="tab-link">Sobre</a></li>
+                    <li><a href="#contato" class="tab-link">Contato</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <!-- Aba Home -->
+        <section id="home" class="tab-content active">
+            <div class="hero">
+                <h2 class="glow">Bem-vindo ao Tech Manutenção</h2>
+                <p>Explore nosso projeto e veja as fotos relacionadas ao desenvolvimento e manutenção de hardware.</p>
+                <div class="photo-carousel">
+                    <img src="WhatsApp Image 2025-03-23 at 17.09.32 (1).jpeg" alt="Foto do Projeto 1" class="carousel-image active">
+                    <img src="WhatsApp Image 2025-03-23 at 17.09.32 (2).jpeg" alt="Foto do Projeto 2" class="carousel-image">
+                    <img src="WhatsApp Image 2025-03-23 at 17.09.32 (3).jpeg" alt="Foto do Projeto 3" class="carousel-image">
+                    <img src="WhatsApp Image 2025-03-23 at 17.09.32.jpeg" alt="Foto do Projeto 4" class="carousel-image">
+                    <img src="WhatsApp Image 2025-03-23 at 17.09.33 (1).jpeg" alt="Foto do Projeto 5" class="carousel-image">
+                    <img src="WhatsApp Image 2025-03-23 at 17.09.33.jpeg" alt="Foto do Projeto 6" class="carousel-image">
+                </div>
+            </div>
+        </section>
+
+        <!-- Aba Informações -->
+        <section id="informacoes" class="tab-content">
+            <div class="container">
+                <h2 class="glow">Informações sobre Hardware</h2>
+                <div class="hardware-info">
+                    <div class="card">
+                        <h3>Processador (CPU)</h3>
+                        <p>O cérebro do computador, responsável por executar instruções e processar dados.</p>
+                    </div>
+                    <div class="card">
+                        <h3>Placa-Mãe</h3>
+                        <p>A base que conecta todos os componentes do computador, como CPU, memória e armazenamento.</p>
+                    </div>
+                    <div class="card">
+                        <h3>Memória RAM</h3>
+                        <p>Armazena dados temporários para acesso rápido enquanto o computador está em uso.</p>
+                    </div>
+                    <div class="card">
+                        <h3>Armazenamento</h3>
+                        <p>Discos rígidos (HDD) ou unidades de estado sólido (SSD) para armazenar dados e sistemas operacionais.</p>
+                    </div>
+                    <div class="card">
+                        <h3>Placa de Vídeo (GPU)</h3>
+                        <p>Responsável pelo processamento gráfico, essencial para jogos e edição de vídeos.</p>
+                    </div>
+                    <div class="card">
+                        <h3>Fonte de Alimentação</h3>
+                        <p>Fornece energia para todos os componentes do computador.</p>
+                    </div>
+                    <div class="card">
+                        <h3>Coolers e Ventoinhas</h3>
+                        <p>Mantêm o sistema resfriado para evitar superaquecimento.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Aba Vídeos -->
+        <section id="videos" class="tab-content">
+            <div class="container">
+                <h2 class="glow">Vídeos Recentes</h2>
+                <div class="video-grid">
+                    <div class="video-item">
+                        <iframe src="https://www.youtube.com/embed/HjkEp-Wd-VQ?si=tTs6Yw3voSxwwxuF" frameborder="0" allowfullscreen></iframe>
+                    </div>
+                    <div class="video-item">
+                        <iframe src="https://youtu.be/x6VWj8JeyIU?feature=shared" frameborder="0" allowfullscreen></iframe>
+                    </div>
+                    <div class="video-item">
+                        <iframe src="https://www.youtube.com/watch?v=HjkEp-Wd-VQ" frameborder="0" allowfullscreen></iframe>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Aba Sobre -->
+        <section id="sobre" class="tab-content">
+            <div class="container">
+                <h2 class="glow">Sobre Nós</h2>
+                <p>Somos uma equipe apaixonada por tecnologia e manutenção de computadores. Nosso objetivo é compartilhar conhecimento e ajudar você a cuidar do seu equipamento de forma eficiente e segura.</p>
+                <p>Com anos de experiência no setor, oferecemos dicas, tutoriais e vídeos educativos para que você possa realizar manutenções e reparos com confiança.</p>
+            </div>
+        </section>
+
+        <!-- Aba Contato -->
+        <section id="contato" class="tab-content">
+            <div class="container">
+                <h2 class="glow">Contato</h2>
+                <p>Entre em contato conosco para dúvidas, sugestões ou parcerias:</p>
+                <form id="contactForm" class="contact-form">
+                    <div class="form-group">
+                        <input type="text" id="name" placeholder="Seu Nome" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" id="email" placeholder="Seu E-mail" required>
+                    </div>
+                    <div class="form-group">
+                        <textarea id="message" placeholder="Sua Mensagem" required></textarea>
+                    </div>
+                    <button type="submit" class="btn-submit">Enviar</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>Tech Manutenção - Compartilhando conhecimento em tecnologia.</p>
+            <div class="social-links">
+                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-linkedin-in"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="ppe.js"></script>
+</body>
+</html>
